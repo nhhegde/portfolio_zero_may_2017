@@ -1,0 +1,134 @@
+body {
+    background-color: #FDFEFF;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+/*
+
+Header
+
+*/
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-name {
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: #227F4A;
+}
+
+.logo {
+    color: #227F4A;
+    font-size: 72px;
+    text-align: center;
+    vertical-align: center;
+    height:  72px;
+    width: 10%;
+}
+
+hr {
+    width: 100%;
+}
+
+/*
+
+Hero Section
+
+*/
+/*
+.hero {
+    display: block;
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+}
+*/
+
+
+/*
+
+Projects Grid Section
+
+*/
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.projects > h4 {
+    width: 98%;
+    margin: 1% 1% 0;
+}
+
+article.project {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #E8EDF9;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+article.project:hover {
+    background-color: #B2B4C6;
+}
+
+a.invisible-link {
+    text-decoration: none;
+    font-weight: medium;
+    color: black;
+}
+@media screen and (min-width: 1001px) {
+    body {
+        
+    }
+    .project {
+    width: 30%;
+    height: auto;
+    margin: 1.5%;
+
+    }
+    .project img {
+        max-width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .project {
+    width: 48%;
+    height: auto;
+    margin: 1%;
+    }
+    .project img {
+        max-width: 90%;
+    }
+
+} 
+
+@media screen and (max-width: 500px) {
+    .project {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1%;
+    }
+    .project img {
+        max-width: 90%;
+    }
+
+}
+
+footer {
+    margin: 30px 1%;
+}
