@@ -89,6 +89,14 @@ a.invisible-link {
     font-weight: medium;
     color: black;
 }
+
+/*
+
+Responsive re-sizing of project grid
+
+*/
+
+
 @media screen and (min-width: 1001px) {
     body {
         
